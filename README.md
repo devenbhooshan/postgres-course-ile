@@ -1,4 +1,4 @@
-# postgres-course-ile
+# ILE
 
 ![](ile.png)
 
