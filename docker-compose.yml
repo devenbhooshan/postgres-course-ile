@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  postgres-course-db:
+    image: devenbhooshan/postgres-course-db
+  postgres-course-web:
+    image: devenbhooshan/postgres-course-web
+    ports:
+      - "7681:7681"
