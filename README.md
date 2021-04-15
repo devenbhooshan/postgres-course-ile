@@ -1,5 +1,7 @@
 # postgres-course-ile
 
+![](ile.png)
+
 ## Steps to start the Interactive Learning Environment
 
 - Clone this repo
