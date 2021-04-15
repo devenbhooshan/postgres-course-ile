@@ -6,6 +6,6 @@
 
 - Clone this repo
 - run `docker-compose up`
-- open `http://localhost:9000/`
+- open `http://localhost:7681/`
 - start learning :D
 
