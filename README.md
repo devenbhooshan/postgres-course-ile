@@ -3,9 +3,10 @@ Interactive Learning Environment(ILE) for the PostgreSQL course. Sign-up [here](
 
 ## Steps to setup the ILE
 
-- Clone this repo `git clone git@github.com:devenbhooshan/postgres-course-ile.git`
+- clone this repo `git clone git@github.com:devenbhooshan/postgres-course-ile.git`
+- run `cd postgres-course-ile`
 - run `docker-compose up`
 - open `http://localhost:7681/`
-- start learning :D
+- enjoy  :)
 
 ![](ile.png)
