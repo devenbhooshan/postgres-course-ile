@@ -1,4 +1,4 @@
-### Postgres Course ILE
+# Postgres Course ILE
 Interactive Learning Environment(ILE) for the PostgreSQL course. Sign-up [here](https://devenbhooshan.ck.page/e41b961998)
 
 ## Steps to setup the ILE
