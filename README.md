@@ -1,6 +1,5 @@
-# ILE
-
 ![](ile.png)
+
 
 ## Steps to start the Interactive Learning Environment
 
