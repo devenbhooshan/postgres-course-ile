@@ -9,4 +9,10 @@ Interactive Learning Environment(ILE) for the PostgreSQL course. Sign-up [here](
 - open `http://localhost:7681/`
 - enjoy  :)
 
+### Note
+if you are facing `ride_hailing_week_2 does not exist` issue, do the following 
+- run `docker rmi devenbhooshan/postgres-course-db:week-2 --force` to remove the image with the bug
+- run `docker-compose up` again
+
+
 ![](ile.png)
