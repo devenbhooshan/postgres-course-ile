@@ -1,8 +1,12 @@
 version: "3.9"
 services:
-  postgres-course-db-fixed:
-    image: devenbhooshan/postgres-course-db:week-2
+  postgres-course-db:
+    image: devenbhooshan/postgres-course-db:week-3
   postgres-course-web:
-    image: devenbhooshan/postgres-course-web:week-2
+    image: devenbhooshan/postgres-course-web:week-3
     ports:
       - "7681:7681"
+  postgres-course-local-checker:
+    image: devenbhooshan/postgres-course-local-checker:week-3
+    ports:
+      - "1947:1947"
