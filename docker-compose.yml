@@ -1,12 +1,22 @@
 version: "3.8"
 services:
   postgres-course-db:
-    image: devenbhooshan/postgres-course-db:week-4
+    image: devenbhooshan/postgres-course-db:week-5
   postgres-course-web:
-    image: devenbhooshan/postgres-course-web:week-4
+    image: devenbhooshan/postgres-course-web:week-5
     ports:
       - "7681:7681"
   postgres-course-local-checker:
-    image: devenbhooshan/postgres-course-local-checker:week-4
+    image: devenbhooshan/postgres-course-local-checker:week-5
     ports:
       - "1947:1947"
+  postgres-course-db-replica-1:
+    image: devenbhooshan/postgres-course-web:week-5
+    ports:
+      - "7682:7681"
+      - "5432"
+  postgres-course-db-replica-2:
+    image: devenbhooshan/postgres-course-web:week-5
+    ports:
+      - "7683:7681"
+      - "5432"
